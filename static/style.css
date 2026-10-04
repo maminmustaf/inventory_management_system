@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+form,
+.search-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 140px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #222;
+    color: white;
+}
+
+button:hover {
+    background: #444;
+}
+
+.inventory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.item-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+pre {
+    background: #111;
+    color: #eee;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
