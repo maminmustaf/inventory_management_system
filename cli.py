@@ -101,6 +101,7 @@ def main():
 2. View inventory
 3. Update item
 4. Delete item
+5. Find External Product
 6. Exit
 """)
 
