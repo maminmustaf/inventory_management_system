@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, request
 
 from external_api import find_product
 
@@ -32,12 +32,6 @@ def get_next_id():
     if not inventory:
         return 1
     return max(item["id"] for item in inventory) + 1
-
-
-@app.route("/")
-def home():
-    return render_template("index.html")
-
 
 @app.get("/inventory")
 def get_inventory():
