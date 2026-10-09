@@ -101,7 +101,6 @@ def main():
 2. View inventory
 3. Update item
 4. Delete item
-5. Find product on Open Food Facts
 6. Exit
 """)
 
