@@ -96,7 +96,7 @@ def find_external_product():
 def main():
     while True:
         print("""
-========== INVENTORY CLI ==========
+= INVENTORY CLI =
 1. Add inventory item
 2. View inventory
 3. Update item

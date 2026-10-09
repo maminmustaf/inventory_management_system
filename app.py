@@ -12,7 +12,7 @@ inventory = [
         "brands": "Silk",
         "price": 350.00,
         "stock": 20,
-        "barcode": "000000000001",
+        "barcode": "01",
         "ingredients_text": "Filtered water, almonds, cane sugar"
     },
     {
@@ -21,7 +21,7 @@ inventory = [
         "brands": "Kellogg's",
         "price": 280.00,
         "stock": 15,
-        "barcode": "000000000002",
+        "barcode": "02",
         "ingredients_text": "Milled corn, sugar, salt"
     }
 ]
